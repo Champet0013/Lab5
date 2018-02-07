@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ist_mac_01.week_5.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="82dp"
+        android:layout_y="176dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="คะแนน"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="272dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="142dp"
+        android:layout_y="365dp"
+        android:text="Go"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="360dp" />
+</AbsoluteLayout>
